@@ -1,0 +1,64 @@
+# Maven repositories:
+
+-> In maven, repositories are locations where dependencies (Jars, Plugins,....)are stored.
+
+# Three types of repositories:
+
+1. Local repository
+2. Central repository
+3. Remote repository
+
+
+1. Local repository:
+
+-> A local repository on your system where maven stores all downloaded dependencies
+-> Local build
+-> Fixing he bugs/issues for the developer
+-> when we run the source code for the first time, if we run mvn package, it will create the .m2 repository into your local system and store all dependencies.
+
+2. Central repository/.M2 repository:
+
+-> To store the dependency files which are required to build the source code.
+
+
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.jmeter/ApacheJMeter_core -->
+<dependency>
+    <groupId>org.apache.jmeter</groupId>
+    <artifactId>ApacheJMeter_core</artifactId>
+    <version>5.6.3</version>
+</dependency>
+
+
+
+
+<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
+<dependency>
+    <groupId>org.sonarsource.sonarqube</groupId>
+    <artifactId>sonar-plugin-api</artifactId>
+    <version>9.4.0.54424</version>
+</dependency>
+
+
+
+3. Remote repository: Backup artifactory
+
+artifactory: folder/repository
+artifact: package (.jar/.war/.tar...)
+
+# Artifactories available in the market:
+
+1. Nexus repository  -> Docker images, artifacts, helm packages
+2. Jfrog Repository -> Docker images, artifacts, helm packages
+
+3. Dockerhub -> Docker images
+
+4. ECR -> Elastic container Registry  (AWS) -> Docker images
+5. ACR -> Azure container registry (AZURE) -> Docker images

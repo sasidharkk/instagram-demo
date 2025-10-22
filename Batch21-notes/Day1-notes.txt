@@ -1,0 +1,47 @@
+Topics:
+
+1. AWS free tier account
+2. Git bash
+3. Launch EC2 server in AWS
+4. How to connect to the EC2 server using the GITBASH
+
+
+DevOps: Development + Operations
+
+Responsibilities: Build, Deployment and Automation
+
+Build: Creating the packages (.jar/.war/.ear/.tar/….)
+Deployment: Deploy the packages in the servers
+
+
+Gitbash: CLI (Command Line Interface) used for the systems to connect with different servers and git repositories
+
+EC2-> Elastic compute cloud
+
+-> Virtual server in the AWS cloud
+
+IP: 54.173.42.111
+
+
+ssh -i <pem file name> <ec2 server username>@public IP of server
+
+
+ssh -> secure shell
+
+Default port of SSH : 22
+
+ssh -i venu.pem ubuntu@54.173.42.111
+
+
+
+# List of EC2 server Usernames:
+
+1. Amazon Linux OS -> ec2-user
+2. Redhat OS -> ec2-user
+3. Ubuntu OS -> ubuntu
+4. Centos OS -> centos
+5. Windows OS -> Administrator
+
+
+sudo su -> Login as a root account
+

@@ -1,0 +1,56 @@
+# Topics:
+
+1. Git branch commands
+2. Branching strategy
+3. git stash
+4. git fork
+
+1. Git branch commands:
+
+1. git checkout -b <branch name>  -> To create the new branch & switch to the new branch
+2. git checkout <branch name> -> To switch from one branch to another branch
+3. git branch -> To see the list of branches
+
+
+
+default branch -> main/master
+
+
+# Branching strategy:
+
+-> development branch  -> Developers will develop the code
+-> Release branch -> Release the code to the end user/ customer
+-> Bug fix branch -> Fix the bugs/issues in the code if the customer is having the issues/troubles
+
+
+facebook -> 1.0.0
+
+facebook -> 1.1.0
+
+
+EPFO -> 2.0.0
+
+EPFO -> 1.0.0
+
+
+
+JIRA:
+
+[AMAZON][DEV]-Deploy Amazon app with v2.0.0- 125
+
+Environments:
+
+DEV, INT, STAGING, PROD
+
+
+# Git stash:
+
+
+git stash is a command used to temporarily save uncommitted changes(both staged and un staged) without committing them, so that we can switch branches or work on something else. then we can bring  those changes back later.
+
+# git fork:
+
+Copy entire someone's repository to your project (your own git hub account)
+
+/ copy repositories from one user to another user
+

@@ -1,0 +1,37 @@
+Topics:
+
+1. How to establish the connection between local repo and remote repository
+2. How to clone remote repository to local
+3. How to push code from local to remote repository
+4. Git workflow
+
+-> GitHub: (Central repository to store our code)
+
+GitHub is a web based platform on top of git that lets you host your git repositories online.
+
+It mainly used for
+
+-> Collaborating with others
+-> Storing the code in the web
+-> working on open source projects
+-> Providing features like issue tracking, pull request and CI/CD...etc
+
+
+Commands:
+
+1. git clone <Repo URL>
+2. git add .
+3. git commit -m "message"
+4. git push origin <branch name>
+
+
+command: ssh-keygen
+
+it will generate public key and private key
+take the public key and store inside the GitHub repo
+
+
+# https link:
+
+git config --global user.name "srikanth78933"
+git config --global user.email "Srikanth@123"

@@ -1,0 +1,53 @@
+Topics:
+
+1. git reset and git revert
+2. git pull and git fetch
+
+
+
+1. git reset and git revert:
+
+
+Both are used to undo the changes/rollback the changes in the git, but they work differently and are used in different scenarios.
+
+# git reset:
+
+-> rollback the changes in the local.
+
+soft, hard, mixed
+
+1. git reset --soft <commit id>
+
+It will reset the code and it will make it as tracked/staged- the commit history will be deleted from the logs permanently
+
+2. git reset --hard <commit id>
+
+It will reset the code and entire content will be deleted as per the commit- the commit id/history will be deleted from the logs permanently
+
+3. git reset --mixed <commit id>
+
+it will reset the code and it will make it as untracked/unstaged - the commit id/history will be deleted from the logs permanently
+
+
+
+# Git revert:
+
+-> Undo the changes/ rollback the changes/ revert the changes
+-> It will revert the changes which was made in the commit
+-> The commit id and history will always present
+-> It will generate the child commit id under the parent commit.
+
+
+
+# Git pull and git fetch:
+
+git fetch: Collecting the remote changes to local
+
+git pull: collecting the remote changes to local and merge with the branch
+
+git pull: git fetch + git merge
+
+merge: combining the changes
+
+
+

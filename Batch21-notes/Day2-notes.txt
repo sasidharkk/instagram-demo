@@ -1,0 +1,102 @@
+# Topics:
+
+1. Linux commands
+2. GitHub account creation
+3. Git introduction
+
+-rw-r--r-- 1 root   root     33 Oct  6 01:21 practice.txt
+
+r -> read
+w -> write
+x -> execute
+
+
+Tar file extraction:
+
+tar -xvzf <file name>
+
+
+Extract Zip file:
+
+app.zip
+
+unzip app.zip
+
+
+-> command not found error:
+
+unzip command not found:
+
+apt install unzip
+apt install java
+apt install maven
+
+yum install unzip
+yum install java
+
+# GIT: tool
+
+VCS -> Version Control System
+SCM -> Source code management
+
+
+Git is a version control system used to track the changes in code or files over time.
+-> This will helps developers collaborate on projects without overwriting each others work.
+
+
+why do we use GIT??
+
+1/ Track the changes
+2. Rollback easily
+3. Collaboration
+4. Branching and merging
+
+Linux Commands:
+
+1. mkdir -> To create the folder
+2. ls -> To check the list of folders & files
+3. ls -lart -> To see the hidden files/folders
+4. pwd -> to check current path
+5. cd -> to go inside folder
+6. cd .. -> One step back from the current path
+7. cd ../.. -> Two step back from the current path
+8. rm -rf -> to delete the folders
+9. rm -> To delete the files
+10. touch -> To create the file
+11. vi or vim -> To edit the files
+12. ESC:wq! -> To save and quit of file
+13. ESC:q! -> Without save quit from file
+14. cat -> To view content inside file
+15. sudo su ->Login as a root account
+16. wget -> Download package from internet
+17. yum -> To install package
+18. cp -> Copy the file
+19. scp -> copy file/folder from one server to another server
+20. ssh -> To connect the servers
+21. chmod -> Used to change the user permission
+22. Crontab -> Used to schedule the jobs
+23. exit -> Exit Terminal
+24. history -> To check the command history
+25. ping -> test network connectivity
+26. mv -> move file
+
+shortcuts:
+
+ctrl+C -> Cancel command
+ctrl+D -> Exit Terminal
+
+chmod examples:
+
+chmod 644 file - read and write to user, groups
+chmod 777 file - full permissions to all
+chmod 600 file - read and write to user only
+chmod 444 file - Only read access
+
+permission levels:
+
+read -r
+write- w
+execute- x
+
+
+
