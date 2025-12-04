@@ -39,12 +39,13 @@
             </plugin>
         </plugins>
     </build>
-      <distributionManagement>
+    <distributionManagement>
       <repository>
           <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
-          <url>http://43.205.243.57:8081/repository/java-maven-package/</url>
+          <url>http://15.206.159.12:8081/repository/javamy-package/</url>
       </repository>
-</distributionManagement>>
+</distributionManagement>
+</project>
     
 
 
